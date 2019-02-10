@@ -6,6 +6,10 @@ For example, to run the server on port 9999, type in
 python chatserve.py 9999
 
 ```
+If this is done correctly, the server will give the following response:
+```
+The server is ready to receive
+```
 
 To start the client:
 We first need to compile our client file, since it is written in C. To do this, type in the following line in your terminal: 
@@ -13,7 +17,7 @@ We first need to compile our client file, since it is written in C. To do this, 
 gcc -o client chatclient.c
 ```
 
-Now that you have an executable file, type the following line, followed by your hostname and four digit port number of the server that is currently running  
+Now that you have an executable file client, type the following line, followed by your hostname and four digit port number of the server that is currently running  
 For example, to run the client on local host 127.0.0.1 and port 9999, type in    
 ```
 client 127.0.0.1 9999
@@ -48,3 +52,4 @@ Bob> Goodbye
 Server > See you
 The server is ready to receive 
 ```
+To end the server program that is running, hit Ctrl-C. 
