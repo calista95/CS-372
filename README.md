@@ -1,16 +1,17 @@
 To start the server:
-Type the following line, followed by your four digit port number
-For example, to run the server on port 9999, type in 
-'''
+Type the following line, followed by your four digit port number   
+For example, to run the server on port 9999, type in  
+
+```
 python chatserve.py 9999
 
-'''
+```
 
 To start the client:
-We first need to compile our client file, since it is written in C. To do this, type in the following line in your terminal:
-'''
+We first need to compile our client file, since it is written in C. To do this, type in the following line in your terminal: 
+```
 gcc -o client chatclient.c
-'''
+```
 
 Now that you have an executable file, type the following line, followed by your hostname and four digit port number of the server that is currently running
 For example, to run the client on local host 127.0.0.1 and port 9999, type in 
